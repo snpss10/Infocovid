@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/fondo1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.55"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:text="Positivos"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#d0355c"
+                    android:textAlignment="center"
+                    android:layout_width="140dp"
+                    android:layout_height="45dp"/>
+                <TextView
+                    android:id="@+id/tcasos"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/esquinas_redondendadasamarrillososo"
+                    android:text="422 183"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="#FFFFFF "
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/dcasos"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/rectangulorojo"
+                    android:text="+7 448"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="#FFFFFF "
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.45"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <TextView
+
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:text="Positivadad acumulada"
+                            android:textStyle="bold"
+                            android:textSize="13dp"
+                            android:textColor="#828282"
+                            android:layout_width="100dp"
+                            android:layout_height="30dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/pacumulada"
+                            android:background="@drawable/redondo_bordeamarillo"
+                            android:gravity="center"
+                            android:text="17.75%"
+                            android:textStyle="bold"
+                            android:textSize="13dp"
+                            android:textColor="#828282"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"/>
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.75"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:gravity="center"
+                            android:textAlignment="center"
+                            android:text="Positivadad          del dia"
+                            android:textStyle="bold"
+                            android:textSize="13dp"
+                            android:textColor="#d96d89"
+                            android:layout_width="100dp"
+                            android:layout_height="30dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/pdiaria"
+                            android:background="@drawable/redondo_borderojo"
+                            android:gravity="center"
+                            android:text="17.75%"
+                            android:textStyle="bold"
+                            android:textSize="13dp"
+                            android:textColor="#d0355c"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/fondo3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Hospitalizados"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="#8d2f88"
+                    android:textAlignment="center"
+                    android:layout_width="180dp"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:id="@+id/thosp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/esquinas_redondendadasrojososo"
+                    android:text="2 183"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="#FFFFFF "
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:id="@+id/dhosp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/rectanguloamarillo"
+                    android:text="+7 448"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="#FFFFFF "
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:text="En UCI"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="#8d2f88"
+                    android:textAlignment="center"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:id="@+id/tuci"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/esquinas_redondendadasrojososo"
+                    android:text="1 483"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="#FFFFFF "
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:id="@+id/duci"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/rectanguloamarillo"
+                    android:text="+2"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="#FFFFFF "
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/fondo8"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:text="Recuperados"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:textColor="#d0355c"
+                    android:textAlignment="center"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:id="@+id/trec"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/esquinas_redondendadasvioletasoso"
+                    android:text="1 483"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="#FFFFFF "
+                    android:layout_width="110dp"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:id="@+id/drec"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/rectanguloblanco"
+                    android:text="+3 708"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="#d0355c"
+                    android:layout_width="90dp"
+                    android:layout_height="25dp"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/rectangulo_plomosinbordes"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.55"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:text="Total de pruebas"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="#d0355c"
+                    android:textAlignment="center"
+                    android:layout_width="200dp"
+                    android:layout_height="45dp"/>
+                <TextView
+                    android:id="@+id/tpruebas"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/redondo_bordevioleta"
+                    android:text="2 377 948"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="#8d2f88 "
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:id="@+id/dpruebas"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:background="@drawable/rectanguloamarillo"
+                    android:text="+7 448"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:textColor="#FFFFFF "
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.45"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:gravity="top|center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="PCR"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor=" #808080"
+                        android:textAlignment="center"
+                        android:layout_width="65dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:id="@+id/tpcr"
+                        android:text="65 000"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="#808080"
+                        android:textAlignment="center"
+                        android:layout_width="65dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:id="@+id/dpcr"
+                        android:gravity="center"
+                        android:background="@drawable/rectanguloplomo"
+                        android:text="+ 500"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center"
+                        android:layout_width="65dp"
+                        android:layout_height="20dp"/>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:text="Rapidas"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor=" #808080"
+                        android:textAlignment="center"
+                        android:layout_width="65dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:id="@+id/trap"
+                        android:text="65 000"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="#808080"
+                        android:textAlignment="center"
+                        android:layout_width="65dp"
+                        android:layout_height="20dp"/>
+                    <TextView
+                        android:id="@+id/drap"
+                        android:gravity="center"
+                        android:background="@drawable/rectanguloplomo"
+                        android:text="+ 500"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:textColor="#FFFFFF"
+                        android:textAlignment="center"
+                        android:layout_width="65dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="bottom|center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="Fallecidos"
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#676767"
+                        android:textAlignment="center"
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tfalle"
+                        android:background="@drawable/redondo_bordenegro"
+                        android:text="19 408"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="#676767"
+                        android:textAlignment="center"
+                        android:layout_width="90dp"
+                        android:layout_height="35dp"/>
+                    <TextView
+                        android:id="@+id/dfalle"
+                        android:background="@drawable/rectanguloplomo"
+                        android:text="+3 549"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"
+                        android:layout_width="90dp"
+                        android:layout_height="35dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.18"
+                    android:gravity="top"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="Casos Activos"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="#d0355c"
+                        android:textAlignment="center"
+                        android:layout_width="200dp"
+                        android:layout_height="35dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:paddingTop="20dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.82"
+                    android:gravity="top|center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tca"
+                        android:background="@drawable/redondo_borderojo"
+                        android:text="19 408"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="#d0355c"
+                        android:textAlignment="center"
+                        android:layout_width="90dp"
+                        android:layout_height="35dp"/>
+                    <TextView
+                        android:id="@+id/dca"
+                        android:background="@drawable/rectangulorojo"
+                        android:text="+3 549"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center"
+                        android:layout_width="90dp"
+                        android:layout_height="35dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

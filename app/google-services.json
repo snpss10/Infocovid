@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "880712479307",
+    "firebase_url": "https://infocovidb.firebaseio.com",
+    "project_id": "infocovidb",
+    "storage_bucket": "infocovidb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880712479307:android:e8e5fe5a01cbc1411ed3ce",
+        "android_client_info": {
+          "package_name": "com.desarrollo.infocovid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880712479307-fpprct2v7r8k35nc2jc3a94ild84bloe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.desarrollo.infocovid",
+            "certificate_hash": "f6e3a5ea406ea04d14515e72dcb76b94d6fba101"
+          }
+        },
+        {
+          "client_id": "880712479307-brsakf1kmia6mrdtpn8ci72r9ih627f8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGqby8QugxqNY1bRCCaEU0lhK48bW2N-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880712479307-brsakf1kmia6mrdtpn8ci72r9ih627f8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
